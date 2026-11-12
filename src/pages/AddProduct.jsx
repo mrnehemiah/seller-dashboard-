@@ -1,8 +1,16 @@
-
 import React, { useState } from "react";
+import "./AddProduct.css";
+
 import {
-  ArrowLeft, UploadCloud, X, ImagePlus,
-  Package, ShieldCheck, Save, Eye, Send
+  ArrowLeft,
+  UploadCloud,
+  X,
+  ImagePlus,
+  Package,
+  ShieldCheck,
+  Save,
+  Eye,
+  Send
 } from "lucide-react";
 
 export default function AddProduct({ language = "sw", onBack }) {
